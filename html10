@@ -1,0 +1,145 @@
+<!--NAME:Dejene Sirbaro-->
+<!--Department:computer science-->
+<!--ID:ugr/10346/13-->
+<!DOCTYPE html> <!--declaration defines that this document is an HTML5 document-->
+    <html> <!--the root element of an HTML page-->
+        <head><!--contains meta information about the HTML page-->
+            <meta charset="utf-8">
+            <title>W3SCHOOL</title><!--specifies a title for the HTML page-->
+        </head>
+        <body style="background-color:lightblue;"><!--defines the document's body, and is a contains for all the visible contents-->    
+        <h1 style="color:blue;text-align:center;font-size:50px" color=""><u>w3school tutorial</u></h1><!--element defines a large heading-->
+            <p style="font-size:40px;color:green;"><b>General future of w3school</b></p>
+            <h2 style="text-align:center;color:green;font-family:italic;"><u>ABOUT W3 SCHOOL</u></h2>
+            <pre style="font-size:20px;">
+                                         .The largest web developer site on the internet.
+                                         .3 billion pages displayed each year.
+                                         .70 million visitors each month.
+                  W3Schools is a freemium educational website for learning coding online. 
+                  Initially released in 1998, it derives its name from the World Wide Web but is not affiliated with the W3 Consortium.
+                  W3Schools offers courses covering all aspects of web development.
+                  W3Schools also publishes free HTML templates. It is run by Refsnes Data in Norway.</pre>
+            <p>TO KNOW DETAILS ABOUT W3SCHOOL CLICK THE LINK BELOW.</p><!--aparagraph that is display in the body-->
+            
+            <a href="https://www.w3schools.com">https://www.w3schools.com</a><!--thisshows how to create a link to W3Schools.com-->
+            
+            <img src="https://th.bing.com/th/id/OIP.OV1TdqCmvmjrEp1sB06sDwHaHa?pid=ImgDet&rs=1"width="200"height="150"alt="W3SCHOOL"><!--The src attribute specifies the path to the image to be displayed-->
+            <h3>w3school online tutorials</h3><!--the 3rd most important heading-->
+            <ol><!--orderd list example-->
+                <li>HTML</li><!--this describes listing of orderd items--> 
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>SQL</li>
+            </ol>
+            <UL type="circle"><!--unorderd list example -->
+			
+                <li>PHYTON</li><!--this describes listing of unorderd items--> 
+                <li>JAVA</li>
+                <li>PHP</li>
+                <li>BOOTSTRAP</li>
+                <p style="color:blue;font-family:verdana;font-size:15px;text-align:center;">THIS TABLE SHOWS ONLINE TUTORIAL IN W3SCHOOL</p>
+                <table border="1"><!--this shows how to insert data into atable in html-->
+                    <tr><!--table elments that will be inserted into rows-->
+                        <th>SUBJECT NAME</th><!--table header/first row-->
+                        <th>SUBJECT CODE</th>
+                        <th>STATUS</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td><!--table data inserted into first row-->
+                        <td>01</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
+                       <td>CSS</td><!--table data inserted into second row-->
+                       <td>02</td>
+                       <td>100%</td>
+                     </tr>
+                     <tr>
+                       <td>JAVASCRIPT</td><!--table data inserted into third row-->
+                       <td>03</td>
+                       <td>100%</td>
+                    </tr>
+                    <tr>
+                       <td>SQL</td><!--table data inserted into third row-->
+                       <td>O4</td>
+                       <td>100%</td>
+                    </tr>
+                    <tr>
+                       <td>PYTHON</td><!--table data inserted into third row-->
+                       <td>05</td>
+                       <td>100%</td>
+                    </tr>
+                    <tr>
+                       <td>JAVA</td><!--table data inserted into third row-->
+                       <td>06</td>
+                       <td>100%</td>
+                    </tr>
+                    <tr>
+                       <td>PHP</td><!--table data inserted into third row-->
+                       <td>07</td>
+                       <td>100%</td>
+                    </tr>
+                    <tr>
+                       <td>C++</td><!--table data inserted into third row-->
+                       <td>08</td>
+                       <td>100%</td>
+                    </tr>
+                </table>
+            </UL>
+            <h2>REGISTRATION FORM</h2><!--this is the basic registration form that includes fields for first name,email and password.-->
+            <form><!--the code  contains a form with fieldset that groups three input fields(name,text,email and legend the group of fields-->
+ <fieldset style="color:green;">
+  <legend>Personal</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="clear">
+  
+ </fieldset>
+</form>
+<p><label>comments:<br><!--this is comment that contains text area part and submit button-->
+    <textarea name="comments"row="30"cols="15">Enter comments here</textarea>
+    </label></p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="clear">
+    <h1 STYLE="COLOR:blue;FONT-SIZE:70PX;text-align:center">HAVE A NICE TIME!!!</h1>
+</body>
+    </html>
+                   
+                     <!--THE DIFFERENCE BETWEEEN XHTML AND HTML-->
+<!--  .HTML stands for hypert text markup langage and XHTML stands for extensible hyper text markup languge.-->
+<!--  .HTML is standard markup language used to create web pages while XHTML is stricter and more standardazed version of html.
+      .both HTML and XHTML include a wide range of features such as support for multimedia,styling and scripting.
+      .XHTML was derived from html to conform XML standards.
+      .hence XHTML is strict when compared to html and does not allow users to get away with lapases in coding and structure-->
+                    <!--THE DIFFERENT VERSIONS OF HTML-->
+<!--HTML 1.0: The basic version of HTML has support for basic elements like text controls and images.
+            :The initial version of HTML does not provide support for tables, font support, etc.
+            :This was the very basic version of HTML with less support for a wide range of HTML elements.
+    HTML 2: HTML version 2.0 was developed in 1995 with basic intention of improving HTML version 1.0
+          :Now a standard got started to develop so as to maintain common rules and regulations across different browsers.
+  HTML 3.2 :It was developed in 1997.
+           :Now, HTML 3.2 has better support for new form elements.
+           With the upgradation of browsers to HTML 3.2, the browser also supported for frame tags
+ HTML 4.01 :It was developed in 1999. 
+           :It extended the support of cascading styling sheets. 
+ HTML5 :This is the latest version of HTML.
+       :For a developer, it could be used in 2014. It came up with lots of HTML tags support.-->
+                <!--THE DIFFERENT VERSIONS OF xHTML-->
+    <!--XHTML 1.0 :strict
+                :XHTML 1.0 Strict is the XML equivalent to strict HTML 4.01, and includes elements and attributes that have not been marked deprecated in the HTML 4.01 specification.
+                 As of November 2015, XHTML 1.0 Strict is the document type used for the homepage of the website of the World Wide Web Consortium.
+    XHTML 1.0 :transitional
+              :is the XML equivalent of HTML 4.01 Transitional,
+               and includes the presentational elements (such as center, font and strike) excluded from the strict version.
+     XHTML 1.0 :Frameset
+      is the XML equivalent of HTML 4.01 Frameset, and allows for the definition of frameset documents—a common Web feature in the late 1990s.
+    XHTML 2.0:
+     is a general-purpose markup language designed to represent documents for a wide range of purposes across the World Wide Web.
+-->
+
